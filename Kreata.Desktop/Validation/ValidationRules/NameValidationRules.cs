@@ -56,5 +56,7 @@ namespace Kreta.Desktop.Validation.ValidationRules
                 return true;
             }
         }
+
+        public bool IsOnlyLetters => this.nameToValidate.All(Char.IsLetter);
     }
 }
