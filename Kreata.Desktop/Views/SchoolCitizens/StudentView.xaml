@@ -6,6 +6,7 @@
              xmlns:xwpftk="http://schemas.xceed.com/wpf/xaml/toolkit" 
              xmlns:local="clr-namespace:Kreta.Desktop.Views.SchoolCitizens"
              xmlns:viewModel="clr-namespace:Kreta.Desktop.ViewModels.SchoolCitizens"
+             xmlns:validation="clr-namespace:Kreta.Desktop.Validation"
              d:DataContext="{d:DesignInstance Type=viewModel:StudentViewModel, IsDesignTimeCreatable=True}"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
