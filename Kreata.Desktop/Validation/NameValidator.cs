@@ -1,4 +1,5 @@
-﻿using System.Globalization;
+﻿using Kreta.Desktop.Validation.ValidationRules;
+using System.Globalization;
 using System.Windows.Controls;
 
 namespace Kreta.Desktop.Validation
@@ -7,7 +8,7 @@ namespace Kreta.Desktop.Validation
     {
         public override ValidationResult Validate(object value, CultureInfo cultureInfo)
         {
-            throw new System.NotImplementedException();
+            return new ValidationResult(true, "");
         }
     }
 }
