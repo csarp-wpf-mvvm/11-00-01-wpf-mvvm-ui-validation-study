@@ -8,6 +8,11 @@ namespace Kreta.Desktop.Validation
     {
         public override ValidationResult Validate(object value, CultureInfo cultureInfo)
         {
+            if (value is string)
+            {
+                string nameToValidate = (string)value;
+                NameValidationRules nvr = new NameValidationRules(nameToValidate);
+            }
             return new ValidationResult(true, "");
         }
     }
